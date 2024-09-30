@@ -91,14 +91,6 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "Next JS",
-    icon: next,
-  },
-  {
     name: "angular",
     icon: angular,
   },
@@ -130,14 +122,6 @@ const technologies = [
   {
     name: "php",
     icon: php,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
 ];
 
