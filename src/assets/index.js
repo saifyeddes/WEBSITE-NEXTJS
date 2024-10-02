@@ -1,7 +1,7 @@
 export { default as project8 } from "./images/portfolio/project8.png";
 export { default as project6 } from "./images/portfolio/project6.jpg";
 export { default as java } from "./java.png";
-export { default as Resume } from "./oussema_ghaoui_cv.pdf";
+export { default as Resume } from "./SAIF_EDDINE_YEDES_CV_FR.pdf";
 export { default as linkedin } from "./socialIcons/linkedin.png";
 export { default as facebook } from "./socialIcons/facebook.png";
 export { default as music_app } from "./images/portfolio/music_app.png";
@@ -50,3 +50,5 @@ export { default as vue } from "./vue.png";
 export { default as angular } from "./angular.png";
 export { default as laravel } from "./laravel.png";
 export { default as php } from "./php.png";
+export { default as Scout } from "./scout.jpeg";
+export { default as cineclubsfax } from "./scout.jpeg";

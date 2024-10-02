@@ -37,44 +37,35 @@ export const stringUrl = (text) => {
 export const CertificationLink = (idx) => {
   idx === 0
     ? window.open(
-        "https://diploma.gomycode.app/?id=343663a3ff13e95ad",
+        "https://drive.google.com/drive/folders/175WlR44JTPSMr4Xgvq0HlwRi1ryBAAec?usp=sharing",
         "_blank"
       )
     : idx === 1
     ? window.open(
-        "https://www.udemy.com/certificate/UC-49b01224-ff75-4ad1-926c-7aa805856b15/",
+        "https://www.udemy.com/certificate/UC-e4f81061-f43f-4c13-b61f-d6822a1d5c0f/",
         "_blank"
       )
     : idx === 2
     ? window.open(
-        "https://learn.gomycode.co/credentials/10fe4ced-993a-441a-94ef-526cc4afcc60/GYAOARMHSYYSCALOCEDEEEONI-CN-TC-O/00003779#certificate",
+        "https://drive.google.com/file/d/1fXrrKQT9JJHLzNgilCFORaDK-ctLHuvF/view",
         "_blank"
       )
     : idx === 3
     ? window.open(
-        "https://diploma.gomycode.app/?id=30965de830ef0c820",
+        "https://www.udemy.com/certificate/UC-363d85db-d5e7-49e4-942b-7440887b5b46/",
         "_blank"
       )
     : idx === 4
     ? window.open(
-        "https://drive.google.com/file/d/1Zw3NPg-R4Z07whBp0aeRb12JBkfu_EYr/view?usp=sharing",
+        "https://www.udemy.com/certificate/UC-26d753fa-c9e8-4b96-a811-e5725ab7a320/",
         "_blank"
       )
     : idx === 5
-    ? window.open(
-        "https://www.coursera.org/account/accomplishments/professional-cert/APEJH2BTEBW5?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof",
-        "_blank"
-      )
+    ? window.open("https://www.facebook.com/scouts.korba", "_blank")
     : idx === 6
-    ? window.open(
-        "https://www.coursera.org/account/accomplishments/professional-cert/HSUD8P4WQ2V2?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof",
-        "_blank"
-      )
+    ? window.open("https://www.facebook.com/cine.club.isims", "_blank")
     : idx === 7
-    ? window.open(
-        "https://www.datacamp.com/statement-of-accomplishment/track/13219a3ccbf185f809fe0acb68edbcd08e3d43ec",
-        "_blank"
-      )
+    ? window.open("https://www.facebook.com/cineclubkorba", "_blank")
     : null;
 };
 

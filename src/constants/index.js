@@ -166,50 +166,68 @@ const experiences = [
   },
 ];
 import tekup from "../assets/images/tekup.jpeg";
+import isims from "../assets/images/isims.jpg";
+
 const testimonials = [
   {
     eduType: "University",
     universityName: "Private Higher School of Technology and Engineering TEKUP",
-    field: "software engineering",
+    field: "Software Engineering",
     name: "TEK-UP University",
     image: tekup,
     date: "2023 -- 2026",
     link: "https://tek-up.de/",
   },
+  // {
+  //   eduType: "University",
+  //   universityName:
+  //     "The Higher Institute of Computer Science and Multimedia of Sfax",
+  //   field: "Computer Science And Multimedia",
+  //   name: "ISIM SFAX",
+  //   image: isims,
+  //   date: "2020 -- 2022",
+  //   link: "https://isimsf.rnu.tn/",
+  // },
   {
     eduType: "Certification Degree's",
     courses: [
       "Full Stack JS Development - MERN Stack",
       "Full Stack Python,Django Framework",
-      "Cloud Computing | Linux Foundations| Apache | AWS IAM | Amazon EC2 | JavaScript | React",
-      "UX / UI Design ",
+      "UIUX with Figma and Adobe XD",
+      "Android App Development : MobDevOps+ Android 13",
     ],
-    name: ["Udemy Online Courses"],
+    name: [
+      "Udemy Online Courses",
+      "Great Learning",
+      "Google Career Certificates",
+    ],
     image: [
-      "https://yt3.googleusercontent.com/ytc/AIdro_m_o6r4liwONXrrjZ2v2ZJ_WlaYXZQF9lrOy3J_aBAWeCU=s900-c-k-c0x00ffffff-no-rj",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuyVL7UoU4rtI4u9Pd_KOhzyPNZWen8uCIIrHQkQK8kA&s",
+      "https://yt3.googleusercontent.com/8kmI-l1suZxgItpAe359N-jJCBct1PXe99e04kTit8XWE3D_pBnctd6pEiwwmapHbDMmC21E45Q=s900-c-k-c0x00ffffff-no-rj",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbteeizfpfpirXtKQUwFT0xaFUmUv7KNKwdA&s",
+      "https://yt3.googleusercontent.com/ytc/AIdro_m6psai1Pd5oG3nGbw_hVfG-qmJ8R1ntco83MTXDf5cdoo=s900-c-k-c0x00ffffff-no-rj",
     ],
     link: [
-      "https://www.udemy.com/?utm_term=Homepage&utm_content=Banner&utm_campaign=Udemy-14Jul21&ranMID=39197&ranEAID=Z24g%2FO8uH8A&ranSiteID=Z24g_O8uH8A-.jVTKtcGM4fkCycl_esKlw&LSNPUBID=Z24g%2FO8uH8A&utm_source=aff-campaign&utm_medium=udemyads",
-      "https://gomycode.com/TN-FR/learn-now-pay-later?utm_term=&utm_campaign=SEA%7CSearch%7CTN%7CHM%7CWebdeveloper&utm_source=adwords&utm_medium=ppc&hsa_acc=5376939631&hsa_cam=17969079990&hsa_grp=140892437702&hsa_ad=635438092962&hsa_src=g&hsa_tgt=dsa-1892103243530&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjw27mhBhC9ARIsAIFsETFSqCgsdj-pmJ8ip5kQsr111ICViiaNO9CwsDoLk3_lV1Rhv4dND4QaAtL-EALw_wcB",
-      "https://certiport.pearsonvue.com/Certifications/ITSpecialist/Certification/Overview",
+      "https://www.udemy.com/home/my-courses/learning/",
+      "https://www.mygreatlearning.com/",
+      "https://grow.google/intl/ssa-fr/google-career-certificates/",
     ],
   },
   {
-    eduType: "Scholarship Degree's",
-    name: ["Coursera", "DataCamp"],
+    eduType: "Volunteering Degree's",
+    name: ["Tunisian Scout", "Cinema Club", "JCI Korba"],
     courses: [
-      "Google Data Analytics Professional Certificate",
-      "Google UX Design Professional Certificate",
-      "SQL FUNDAMENTALS (6 COURSES)",
+      "Team Leader Tunisian Scout Association ",
+      "Founder El Club Cinema Sfax",
+      "Leader Cinema Club Korba",
     ],
     image: [
-      "https://upload.wikimedia.org/wikipedia/commons/9/97/Coursera-Logo_600x600.svg",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTas7zxOANT4O-i9H--7LIsNAZQ5mPTqgX1kVvg3sfRGA&s",
+      "https://jamaity.org/wp-content/uploads/2015/08/logo_scouts_tunisiens.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCTwaZcK3sjkx1td9XjSQ2YNg0vkXzrzgkvQ&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4tmA4E9ebg4gFFmhfONLmrR8ce7MF8Bf6xA&s",
     ],
     link: [
-      "https://www.coursera.org/?irclickid=2uMwywV%3AFxyIUwtQopym208zUkATlLzb1xxvTk0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=2985301&utm_content=b2c",
-      "https://www.datacamp.com/",
+      "https://www.facebook.com/scouts.korba",
+      "https://www.facebook.com/cine.club.isims",
     ],
   },
 ];
