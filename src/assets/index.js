@@ -52,3 +52,5 @@ export { default as laravel } from "./laravel.png";
 export { default as php } from "./php.png";
 export { default as Scout } from "./scout.jpeg";
 export { default as cineclubsfax } from "./scout.jpeg";
+export { default as ubertaxi } from "./ubertaxi.png";
+export { default as pfe } from "./pfe.png";

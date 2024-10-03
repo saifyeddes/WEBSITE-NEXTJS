@@ -45,6 +45,8 @@ import {
   angular,
   laravel,
   php,
+  ubertaxi,
+  pfe,
 } from "../assets";
 
 export const navLinks = [
@@ -196,34 +198,26 @@ const testimonials = [
       "UIUX with Figma and Adobe XD",
       "Android App Development : MobDevOps+ Android 13",
     ],
-    name: [
-      "Udemy Online Courses",
-      "Great Learning",
-      "Google Career Certificates",
-    ],
+    name: ["Udemy Online Courses", "Google Career Certificates"],
     image: [
       "https://yt3.googleusercontent.com/8kmI-l1suZxgItpAe359N-jJCBct1PXe99e04kTit8XWE3D_pBnctd6pEiwwmapHbDMmC21E45Q=s900-c-k-c0x00ffffff-no-rj",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbteeizfpfpirXtKQUwFT0xaFUmUv7KNKwdA&s",
-      "https://yt3.googleusercontent.com/ytc/AIdro_m6psai1Pd5oG3nGbw_hVfG-qmJ8R1ntco83MTXDf5cdoo=s900-c-k-c0x00ffffff-no-rj",
     ],
     link: [
       "https://www.udemy.com/home/my-courses/learning/",
-      "https://www.mygreatlearning.com/",
       "https://grow.google/intl/ssa-fr/google-career-certificates/",
     ],
   },
   {
     eduType: "Volunteering Degree's",
-    name: ["Tunisian Scout", "Cinema Club", "JCI Korba"],
+    name: ["Tunisian Scout", "Cinema Club"],
     courses: [
       "Team Leader Tunisian Scout Association ",
       "Founder El Club Cinema Sfax",
-      "Leader Cinema Club Korba",
     ],
     image: [
       "https://jamaity.org/wp-content/uploads/2015/08/logo_scouts_tunisiens.jpg",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCTwaZcK3sjkx1td9XjSQ2YNg0vkXzrzgkvQ&s",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4tmA4E9ebg4gFFmhfONLmrR8ce7MF8Bf6xA&s",
     ],
     link: [
       "https://www.facebook.com/scouts.korba",
@@ -234,59 +228,63 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Full Stack Video Conference App with Next JS",
+    name: "Full Stack Uber TAXI App with Vue JS",
     description:
-      "Built with the latest Next.js and TypeScript. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.",
+      "Developed a mobile app using Vue.js and Laravel, integrating taxi booking, food delivery, real-time tracking, and secure payments.",
     tags: [
       {
-        name: "nextjs",
+        name: "vuejs",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Laravel",
         color: "green-text-gradient",
       },
       {
-        name: "clerk",
+        name: "UI/UX",
         color: "pink-text-gradient",
       },
       {
         name: "Open Project",
         color: "white-text-gradient",
-        url: "https://join-me-project.vercel.app/sign-in?redirect_url=https%3A%2F%2Fjoin-me-project.vercel.app%2F",
+        url: "#",
         border:
           "font-sans font-semibold border-2 border-white rounded-lg hover:text-tertiary hover:bg-white",
       },
     ],
-    image: joinMe,
+    image: ubertaxi,
     type: "web",
   },
   {
-    name: "Full Stack Social Media App",
+    name: " MERN Full Stack E-Commerce Web Application",
     description:
-      "advanced Social Media features, such as Google Authentication, create, edit, delete and save posts, like and comment on other people's posts, search and filter images and much more,",
+      "Developed web applications for Spanish clients using React JS for responsive frontends and Node.js for backends, ensuring performance, UX, and accessibility across devices.",
     tags: [
       {
-        name: "react",
+        name: "Reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "sanity",
+        name: "NodeJs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "ExpressJs",
         color: "pink-text-gradient",
       },
+      // {
+      //   name: "MongoDB",
+      //   color: "purple-text-gradient",
+      // },
       {
         name: "Open Project",
         color: "white-text-gradient",
-        url: "https://sharepictrues.netlify.app/login",
+        url: "#",
         border:
           "font-sans font-semibold border-2 border-white rounded-lg hover:text-tertiary hover:bg-white",
       },
     ],
-    image: project2,
+    image: pfe,
     type: "web",
   },
 
@@ -296,15 +294,15 @@ const projects = [
       "Full Music App Clone ( Spotify 2.0 Clone ) With a modern homepage, fully-fledged music player, search, lyrics, song exploration features, search, popular music around you, worldwide top charts, and much more.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "MaterialUI",
         color: "pink-text-gradient",
       },
       {
@@ -318,29 +316,29 @@ const projects = [
     image: music_app,
     type: "web",
   },
-  {
-    name: "Food Delivery App",
-    description:
-      "This project is designed for the finale project in the UX Design Certification in GO MY CODE Center.",
-    tags: [
-      {
-        name: "ux design",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ui design",
-        color: "green-text-gradient",
-      },
-      {
-        name: "adobe xd",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project3,
-    source_code_link:
-      "https://www.behance.net/gallery/133351579/Food-Delivery-App",
-    type: "design",
-  },
+  // {
+  //   name: "Food Delivery App",
+  //   description:
+  //     "This project is designed for the finale project in the UX Design Certification in GO MY CODE Center.",
+  //   tags: [
+  //     {
+  //       name: "ux design",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "ui design",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "adobe xd",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: project3,
+  //   source_code_link:
+  //     "https://www.behance.net/gallery/133351579/Food-Delivery-App",
+  //   type: "design",
+  // },
   {
     name: "Workout Application",
     description:
@@ -367,7 +365,7 @@ const projects = [
   {
     name: "Real-time Visual Detection: Java with OpenCV",
     description:
-      'Explore computer vision and image processing with our project, "Real-time Visual Detection: Java with OpenCV." It showcases advanced real-time visual analysis techniques through four key applications: Face Detection, Eyes Detection, Edge Detection, and Watermarking.',
+      "Explore computer vision and image processing with our project,It showcases advanced real-time visual analysis techniques through four key applications: Face Detection, Eyes Detection, Edge Detection, and Watermarking.",
     tags: [
       {
         name: "Java21",
