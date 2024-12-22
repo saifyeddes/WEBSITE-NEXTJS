@@ -198,30 +198,29 @@ const testimonials = [
       "UIUX with Figma and Adobe XD",
       "Android App Development : MobDevOps+ Android 13",
     ],
-    name: ["Udemy Online Courses", "Google Career Certificates"],
+    name: ["Udemy Online Courses"],
     image: [
       "https://yt3.googleusercontent.com/8kmI-l1suZxgItpAe359N-jJCBct1PXe99e04kTit8XWE3D_pBnctd6pEiwwmapHbDMmC21E45Q=s900-c-k-c0x00ffffff-no-rj",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbteeizfpfpirXtKQUwFT0xaFUmUv7KNKwdA&s",
     ],
-    link: [
-      "https://www.udemy.com/home/my-courses/learning/",
-      "https://grow.google/intl/ssa-fr/google-career-certificates/",
-    ],
+    link: ["https://www.udemy.com/home/my-courses/learning/"],
   },
   {
     eduType: "Volunteering Degree's",
-    name: ["Tunisian Scout", "Cinema Club"],
+    name: ["Tunisian Scout", "Cinema Club", "Aiesec University"],
     courses: [
       "Team Leader Tunisian Scout Association ",
       "Founder El Club Cinema Sfax",
+      "Outcoming Global Talent/Teaching Aiesec University El-manar",
     ],
     image: [
       "https://jamaity.org/wp-content/uploads/2015/08/logo_scouts_tunisiens.jpg",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCTwaZcK3sjkx1td9XjSQ2YNg0vkXzrzgkvQ&s",
+      "https://image.isu.pub/151117220107-0e864eea87e4845ba394fe8f300a16e0/jpg/page_1_thumb_large.jpg",
     ],
     link: [
       "https://www.facebook.com/scouts.korba",
       "https://www.facebook.com/cine.club.isims",
+      "https://aiesec.org/",
     ],
   },
 ];
@@ -233,7 +232,7 @@ const projects = [
       "Developed a mobile app using Vue.js and Laravel, integrating taxi booking, food delivery, real-time tracking, and secure payments.",
     tags: [
       {
-        name: "vuejs",
+        name: "Vuejs",
         color: "blue-text-gradient",
       },
       {
@@ -247,7 +246,7 @@ const projects = [
       {
         name: "Open Project",
         color: "white-text-gradient",
-        url: "#",
+        url: "https://github.com/PoemGroup/ndao-taxi-food.git",
         border:
           "font-sans font-semibold border-2 border-white rounded-lg hover:text-tertiary hover:bg-white",
       },
@@ -279,7 +278,7 @@ const projects = [
       {
         name: "Open Project",
         color: "white-text-gradient",
-        url: "#",
+        url: "https://github.com/saifyeddes/E-Shopper.git",
         border:
           "font-sans font-semibold border-2 border-white rounded-lg hover:text-tertiary hover:bg-white",
       },

@@ -65,7 +65,7 @@ export const CertificationLink = (idx) => {
     : idx === 6
     ? window.open("https://www.facebook.com/cine.club.isims", "_blank")
     : idx === 7
-    ? window.open("https://www.facebook.com/cineclubkorba", "_blank")
+    ? window.open("https://aiesec.org/", "_blank")
     : null;
 };
 
